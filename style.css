@@ -2,7 +2,8 @@ html,
 body {
   height: 100%;
   font-size: 1em;
-  background: ;
+  background: url("img/night_sky.jpg") ;
+  color: white;
 }
 
 body {
@@ -17,7 +18,6 @@ main {
 
 header,
 footer {
-  color: white;
   background-color: #865FB7;
   text-align: center;
 }
@@ -25,7 +25,6 @@ footer {
 header {
     height: 10%;
     font-size: xx-large;
-    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,6 +39,50 @@ header {
 
 .left{
   transform: rotate(180deg);
+}
+
+main{
+  text-align : center;
+}
+
+.imgHome{
+  width: 100%;
+  height: 50%;
+  background: url("img/shuttle.jpg");
+  background-size: cover;
+}
+
+.separator{
+  width: 100%;
+  position: relative;
+  top: -4%;
+}
+
+.buttonContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 35%;
+}
+
+button{
+  width :50%; 
+  height : 15%;
+  font-size : 1.5rem;
+  border-radius: 30%;
+  background-color: #865FB7;
+  color: white;
+  border-right: 5px solid white;
+  border-left: 5px solid white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  box-shadow: 0px 10px 5px black;
+}
+
+.buttonClick{
+  box-shadow: none;
 }
 
 
